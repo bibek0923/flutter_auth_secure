@@ -9,7 +9,7 @@ Dio createDioClient() {
     
     connectTimeout: const Duration(seconds: 10),
     receiveTimeout: const Duration(seconds: 10),
-    baseUrl: 'https://gharchaiyo.com/api/v1/',
+    baseUrl: dotenv.env['baseUrl'].toString(),
     headers: {
       'Content-Type': 'application/json',
     },
