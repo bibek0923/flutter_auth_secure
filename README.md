@@ -1,16 +1,28 @@
-# try_app
+# Secure Auth Flutter 🔐
 
-A new Flutter project.
+A complete Flutter authentication template using `flutter_secure_storage`, `dio` interceptors, and token-based login/logout flows.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- ✅ Login / Logout flow
+- ✅ Secure token storage with `flutter_secure_storage`
+- ✅ Auto-refresh tokens using `dio` interceptors
+- ✅ API call integration with `dio`
+- ✅ Clean, scalable architecture
+- ✅ Error handling & token expiry logic
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**
+- **Dio** for API requests
+- **flutter_secure_storage** for secure local storage
+- **Cubit / Bloc (if you used it)**
+- **VS Code** / Android Studio for development
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/bibek0923/secure_auth_flutter.git
+cd secure_auth_flutter
