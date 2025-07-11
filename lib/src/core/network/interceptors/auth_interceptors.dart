@@ -96,7 +96,7 @@ class AuthInterceptor extends Interceptor {
       ));
 
       final response = await refreshDio.post(
-        'https://gharchaiyo.com/api/v1/account/refresh/',
+        dotenv.env['refreshUrl']!,
         data: {"refresh": refreshToken},
       );
 
